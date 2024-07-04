@@ -8,15 +8,15 @@ const chalk = require("chalk");
 
 /* ~~~~~~~~~ WEB API ~~~~~~~~~ */
 global.lol = "983121c4cc393542084c9cd6"; // https://api.lolhuman.xyz
-global.xzn = ""; // https://xnz.wtf
+global.xzn = ""; // https://xnzwtf
 /* ~~~~~~~~~ SETTINGS OWNER ~~~~~~~~~ */
-global.numberowner = "62895347198105"; // Owner Utama
-global.owner = ["62895347198105"]; // Owner Lainnya
-global.namaowner = "Arifzyn."; // Nama Owner
-global.premium = ["62895347198105"]; // Premium User
-global.nobot = "62895347198105";
+global.numberowner = "62881080256055"; // Owner Utama
+global.owner = ["6288221569310"]; // Owner Lainnya
+global.namaowner = "Kahn"; // Nama Owner
+global.premium = ["6285860357430"]; // Premium User
+global.nobot = "62881080256055";
 /* ~~~~~~~~~ SETTINGS BOT ~~~~~~~~~ */
-global.namabot = "Arifzyn-MD"; // NickBot
+global.namabot = "Azam jelek"; // NickBot
 global.typemenu = "v2"; // 'v1' > 'v2' > 'v3' > 'v4'
 global.typereply = "v1"; // 'v1' > 'v2'
 global.autoread = false; // ReadChat
@@ -24,7 +24,7 @@ global.autobio = false; // AutoBio
 global.autoblok212 = true; // AutoBlock Nomer +212
 global.onlyindo = false; // AutoBlock Selain Nomer Indo
 global.packname = "Copyright © 2023"; // Watermark Sticker
-global.author = "Arifzyn."; // Watermark Sticker
+global.author = "kahn."; // Watermark Sticker
 /* ~~~~~~~~~ MESSAGES ~~~~~~~~~ */
 global.mess = {
   done: "Done ✅",
@@ -42,7 +42,7 @@ global.mess = {
 global.thumb = fs.readFileSync("./media/quoted.jpg");
 global.menu = fs.readFileSync("./media/menu.jpg");
 /* ~~~~~~~~~ EDITS LINK ~~~~~~~~~ */
-global.link = "https://chat.whatsapp.com/LfBvDxQujrLHihSRI6TCIZ";
+global.link = "‎Buka tautan ini untuk bergabung ke Grup WhatsApp saya: https://chat.whatsapp.com/JK2ADP1iFtXHOssNJxbXiS";
 /* ~~~~~~~~~ END SYSTEM ~~~~~~~~~ */
 let file = require.resolve(__filename);
 fs.watchFile(file, () => {
